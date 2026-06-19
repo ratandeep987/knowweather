@@ -11,7 +11,7 @@ function App() {
   setLoading(true);
   setError('');
   try {
-    const API_KEY = '0fba65776f84c4be741173c22a319288';
+    const API_KEY = process.env.REACT_APP_WEATHER_KEY;
     const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
     const data = await res.json();
     if (data.cod === '404') {
