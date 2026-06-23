@@ -132,11 +132,6 @@ GET https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&uni
 ---
 
 ## 👨‍💻 Author
+Ratan Deep
 
 Built with ❤️ while learning React JS.
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
